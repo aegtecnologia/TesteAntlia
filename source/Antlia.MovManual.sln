@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Antlia.MovManual.Api", "Antlia.MovManual.Api\Antlia.MovManual.Api.csproj", "{857D9089-C235-41C7-A3CF-71FC27F7068F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Domain", "0 - Domain", "{ECE8C611-2ED0-4D6E-871C-49E0C84A0E78}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Antlia.MovManual.Domain", "Antlia.MovManual.Domain\Antlia.MovManual.Domain.csproj", "{089D0521-CBEB-4C62-828C-C8A13E5D7155}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Infra", "1 - Infra", "{5DB18B03-E281-4424-B5C8-C16C7A24FD3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Antlia.MovManual.Infra", "Antlia.MovManual.Infra\Antlia.MovManual.Infra.csproj", "{C81FCC3D-1460-4922-9194-28A5D9A3C42F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{857D9089-C235-41C7-A3CF-71FC27F7068F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{857D9089-C235-41C7-A3CF-71FC27F7068F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{857D9089-C235-41C7-A3CF-71FC27F7068F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{857D9089-C235-41C7-A3CF-71FC27F7068F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{089D0521-CBEB-4C62-828C-C8A13E5D7155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{089D0521-CBEB-4C62-828C-C8A13E5D7155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{089D0521-CBEB-4C62-828C-C8A13E5D7155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{089D0521-CBEB-4C62-828C-C8A13E5D7155}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C81FCC3D-1460-4922-9194-28A5D9A3C42F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C81FCC3D-1460-4922-9194-28A5D9A3C42F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C81FCC3D-1460-4922-9194-28A5D9A3C42F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C81FCC3D-1460-4922-9194-28A5D9A3C42F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{089D0521-CBEB-4C62-828C-C8A13E5D7155} = {ECE8C611-2ED0-4D6E-871C-49E0C84A0E78}
+		{C81FCC3D-1460-4922-9194-28A5D9A3C42F} = {5DB18B03-E281-4424-B5C8-C16C7A24FD3B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82A4FD30-BFAA-43C7-8111-9EE48F4A81DF}
+	EndGlobalSection
+EndGlobal
